@@ -4,9 +4,9 @@ client = docker.DockerClient(base_url='unix://var/run/docker.sock')
 
 
 docker_folder = "simple_web_app"
-deployment_name = "simplewebapp"
-docker_username = "fatinishmam"
-docker_password = "dckr_pat_eMoGwJsFUzxh5Q5YOTitMyj3i3M"
+deployment_name = "1-event_1"
+docker_username = "medisuware"
+docker_password = "dckr_pat__kaJqU-5QBlctcyPFHUhrJot6BI"
 
 
 client.images.build(path=docker_folder, gzip=False, tag=f"{docker_username}/{deployment_name}")
